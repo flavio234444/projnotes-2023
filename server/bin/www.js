@@ -7,13 +7,11 @@
 // Module that allows to communicate with a client
 // usign HTTP protocol
 import http from 'http';
-
 // Impornting winston logger
 import log from '../config/winston';
 
 // Importing config Keys
-import configKeys from '../config/configKeys';
-
+import configKeys from '../config/configKeys'
 // Importing ODM
 import MongooseOdm from '../services/odm';
 
@@ -102,4 +100,4 @@ function startServer(dbConnection) {
   } catch (error) {
     log.error(`Error www.js ln 103: ${error.message}`);
   }
-})(); 
+})();
