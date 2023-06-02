@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Crearemos un objeto que contendra
-// las llaves de configuración
+// las llaves de configuración de base de datos
 export default {
   homeUrl: `${process.env.APP_URL}:${process.env.PORT}`,
   port: process.env.PORT || '3000',

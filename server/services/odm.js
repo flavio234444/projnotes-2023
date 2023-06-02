@@ -26,4 +26,4 @@ class MongooseOdm {
   }
 }
 
-export default MongooseOdm; 
+export default MongooseOdm;
