@@ -14,4 +14,4 @@ const showDashboard = (req, res) => {
     // Action Methods
     showDashboard,
     add,
-  };
+  }.
